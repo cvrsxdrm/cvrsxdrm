@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi! I'm cvrsxdrm 👋
 
-<!--
-**cvrsxdrm/cvrsxdrm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a beginner Python developer.
 
-Here are some ideas to get you started:
+## 🚀 My Projects
+* [Caravan RPG](https://github.com/cvrsxdrm/caravan-rpg) — A text adventure game about caravan survival in the desert.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠 Technologies
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
+## 📱 How to contact me:
+* **Telegram**: `@cvrsxdrm`
+* **Discord**: `cvrsxdrm`

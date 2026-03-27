@@ -3,7 +3,7 @@
 I'm a beginner Python developer.
 
 ## 🚀 My Projects
-* [Caravan RPG](https://github.com/cvrsxdrm/caravan-rpg) — A text adventure game about caravan survival in the desert.
+* [Caravan RPG](https://github.com/cvrsxdrm/caravan-rpg) — A text adventure game about caravan survival in the desert (first project).
 * [Task Master](https://github.com/cvrsxdrm/task-master-bot) — A simple Telegram bot for recording tasks.
 * [FinTrack Bot (WIP)](https://github.com/cvrsxdrm/fintrack-bot) — FinTrack Bot is your personal assistant for managing personal finances and monitoring cryptocurrency assets directly within Telegram.
 

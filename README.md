@@ -10,3 +10,10 @@ I'm a beginner Python developer.
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![VS Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white) 
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>

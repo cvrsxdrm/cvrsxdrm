@@ -16,7 +16,7 @@ jobs:
       - name: Generate SVGs (Platane/snk)
         uses: platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: ${{ github.cvrsxdrm }}
           output: dist
           format: svg
           palette: github

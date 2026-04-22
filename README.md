@@ -12,8 +12,8 @@ I'm a beginner Python developer.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cvrsxdrm/cvrsxdrm/main/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/cvrsxdrm/cvrsxdrm/main/output/github-contribution-grid-snake.svg" />
     <img alt="github-snake" src="output/github-contribution-grid-snake.svg" />
   </picture>
 </p>

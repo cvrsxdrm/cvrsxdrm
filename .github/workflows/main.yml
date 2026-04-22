@@ -1,0 +1,31 @@
+name: Generate contribution snake SVG
+on:
+  schedule:
+    - cron: '0 3 * * *'    # раз в сутки в 03:00 UTC
+  workflow_dispatch:        # чтобы можно было запустить вручную
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate SVGs (Platane/snk)
+        uses: platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          output: dist
+          format: svg
+          palette: github
+      - name: Commit SVGs to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          mkdir -p output
+          cp -r dist/* output/ || true
+          git add output
+          git commit -m "chore: update contribution snake" || echo "no changes to commit"
+          git push

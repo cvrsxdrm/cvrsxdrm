@@ -2,28 +2,29 @@ name: Generate contribution snake SVG
 on:
   schedule:
     - cron: '0 3 * * *'    # раз в сутки в 03:00 UTC
-  workflow_dispatch:        # можно запустить вручную
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'  # опция для Node.js 24
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Generate SVGs (Platane/snk)
+      - name: Generate SVGs (platane/snk)
         uses: platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          output: dist
-          format: svg
-          palette: github
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg
 
       - name: Commit generated SVGs into output folder
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
